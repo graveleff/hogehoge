@@ -22,15 +22,16 @@ public class Test03 {
 		System.out.println(score[1].length);
 		System.out.println(score[2].length);
 
-		//		for (int i = 0; i < 3; i++) {
-//
-//			for (int j = 0; j < 3; j++) {
-//				System.out.println(score[i][j]);
-//			}
-//			System.out.println();
-//
-//		}
+		for (int i = 0; i < 3; i++) {
+
+			for (int j = 0; j < 3; j++) {
+				System.out.println(score[i][j]);
+			}
+			System.out.println();
+
+		}
 
 	}
 
 }
+
