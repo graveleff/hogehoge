@@ -12,7 +12,7 @@ public class Test02 {
 		b[1] = 200;
 		b[2] = 300;
 
-		for (int value :b){
+		for (int value : b) {
 
 			System.out.println(value);
 

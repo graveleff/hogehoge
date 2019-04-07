@@ -13,6 +13,7 @@ public class Test01 {
 					System.out.println("break ... " + ((i + 1) * (j + 1)));
 					break;
 				}
+				// コメントを追加
 				System.out.println((i + 1) + "×" + (j + 1) + "＝" + ((i + 1) * (j + 1)));
 			}
 			System.out.println();
