@@ -5,7 +5,7 @@ public class Practice_20190414 {
 
 		// http://kitako.tokyo/lib/JavaExercise.aspx?id=4
 
-		// //練習問題４－１
+		// //練習問題４－１	
 		// for (int i = 0; i < 10; i++) {
 		// System.out.println(i+1 +"回目： SPAM");
 		// }

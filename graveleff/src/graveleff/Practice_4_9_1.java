@@ -1,5 +1,7 @@
 package graveleff;
 
+import java.util.Scanner;
+
 public class Practice_4_9_1 {
 	public static void main(String[] args){
 
@@ -41,7 +43,9 @@ public class Practice_4_9_1 {
 		int[] numbers = new int[]{3,4,9};
 		System.out.println("１桁の数字を入力 > ");
 
-		int inputNum = new java.util.Scanner(System.in).nextInt();
+		Scanner scan = new java.util.Scanner(System.in);
+
+		int inputNum = scan.nextInt();
 		boolean result = false;
 
 		for(int num : numbers ){
@@ -55,6 +59,8 @@ public class Practice_4_9_1 {
 		if(!result){
 			System.out.println("ハズレ・・・");
 		}
+
+		scan.close();
 
 	}
 
